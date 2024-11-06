@@ -102,7 +102,6 @@ jobs:
 
           
       # Set new image tag
-
       - name: ECR image scan
         id: image-scan
         uses: alexjurkiewicz/ecr-scan-image@v2.0.1
